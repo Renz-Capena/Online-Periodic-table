@@ -4,7 +4,7 @@
     /* border: 1px solid red; */
 }
 body{
-    background-color: rgb(145, 145, 145);
+    background-color: rgb(0, 0, 0);
     text-align: center;
 }
 .table_wrapper{
@@ -671,13 +671,14 @@ body{
 /* ===============================bottom_elements_wrapper */
 .bottom_elements_wrapper{
     /* border: 1px solid red; */
-    /* width: 900px; */
-    /* margin: auto; */
+    width: 900px;
+    margin: auto;
     margin-top: 5vh;
     display: grid;
     gap: 3px;
     grid-template-columns: repeat(14,1fr);
 }
+
 .box_wrapper_58{
     background-color: #dff3ff;
     color: #003355;
@@ -894,4 +895,20 @@ body{
     .box_description{
         padding: 0px;
     }
+    /*===================== element bottom */
+    .bottom_box{
+        grid-column: unset;
+        grid-area: unset;
+    }
+    .bottom_elements_wrapper{
+        /* border: 1px solid red; */
+        transform: rotate(90deg);
+        width: unset;
+        margin: auto;
+        margin-top: 110vh;
+        display: grid;
+        gap: 3px;
+        grid-template-columns: repeat(4,60px);
+    }
+    
 }
