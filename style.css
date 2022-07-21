@@ -293,3 +293,51 @@ body{
     grid-column: 19;
     grid-row: 7;
 }
+.box_wrapper_86{
+    background-color: #ffe7eb;
+    color: #cd1d5e;
+    stroke: #cd1d5e;
+    cursor: pointer;
+    grid-column: 19;
+    grid-row: 6;
+}
+.box_wrapper_54{
+    background-color: #ffe7eb;
+    color: #cd1d5e;
+    stroke: #cd1d5e;
+    cursor: pointer;
+    grid-column: 19;
+    grid-row: 5;
+}
+.box_wrapper_36{
+    background-color: #ffe7eb;
+    color: #cd1d5e;
+    stroke: #cd1d5e;
+    cursor: pointer;
+    grid-column: 19;
+    grid-row: 4;
+}
+.box_wrapper_18{
+    background-color: #ffe7eb;
+    color: #cd1d5e;
+    stroke: #cd1d5e;
+    cursor: pointer;
+    grid-column: 19;
+    grid-row: 3;
+}
+.box_wrapper_10{
+    background-color: #ffe7eb;
+    color: #cd1d5e;
+    stroke: #cd1d5e;
+    cursor: pointer;
+    grid-column: 19;
+    grid-row: 2;
+}
+.box_wrapper_2{
+    background-color: #ffe7eb;
+    color: #cd1d5e;
+    stroke: #cd1d5e;
+    cursor: pointer;
+    grid-column: 19;
+    grid-row: 1;
+}
