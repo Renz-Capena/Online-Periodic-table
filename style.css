@@ -8,8 +8,8 @@ body{
     text-align: center;
 }
 .table_wrapper{
-    border: 1px solid black;
-    width: min(1500px,90%);
+    /* border: 1px solid black; */
+    /* width: min(1500px,95%); */
     margin: auto;
     margin-top: 30vh;
     display: grid;
@@ -22,8 +22,11 @@ body{
     font-size: 9px;
     justify-content: space-around;
 }
+.box_etter{
+    font-size: clamp(1px,3vw,18px);
+}
 .box_description{
-    font-size: 10px;
+    font-size: clamp(1px,3vw,10px);
     padding: 2px;
 }
 .box{
@@ -753,4 +756,23 @@ body{
     cursor: pointer;
     grid-column: 14;
     grid-row: 5;
+}
+
+/* =================================RESPONSIVE */
+@media (max-width:700px){
+    body{
+        background-color: rgb(0, 0, 0);
+    }
+    .table_wrapper{
+        grid-template-columns: repeat(19,60px);
+        /* margin-top:unset; */
+        margin-top: 25vh;
+        margin-bottom: 25vh;
+        /* margin: auto; */
+        transform: rotate(90deg);
+    }
+    .box{
+        /* grid-column:unset;
+        grid-row:unset; */
+    }
 }
