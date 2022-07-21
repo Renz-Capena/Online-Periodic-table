@@ -19,10 +19,10 @@ body{
 }
 .box_number{
     display: flex;
-    font-size: 9px;
+    font-size: clamp(1px,3vw,10px);
     justify-content: space-around;
 }
-.box_etter{
+.box_letter{
     font-size: clamp(1px,3vw,18px);
 }
 .box_description{
@@ -765,14 +765,14 @@ body{
     }
     .table_wrapper{
         grid-template-columns: repeat(19,60px);
+        row-gap:1px;
         /* margin-top:unset; */
         margin-top: 25vh;
         margin-bottom: 25vh;
         /* margin: auto; */
         transform: rotate(90deg);
     }
-    .box{
-        /* grid-column:unset;
-        grid-row:unset; */
+    .box_description{
+        padding: 0px;
     }
 }
