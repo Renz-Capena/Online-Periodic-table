@@ -38,6 +38,7 @@ body{
 }
 .box:hover{
     transform: scale(1.8);
+    box-shadow: 0px 0px 5px 1px black;
 }
 /* ===================================Box wrapper */
 .box_wrapper_1{
